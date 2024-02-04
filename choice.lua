@@ -2,10 +2,13 @@ local class = require("libs.middleclass")
 
 ---@class Choice
 local Choice = class("Choice")
+local destination = ""
+local description = ""
 
-function Choice:initialize()
-    self.destination = nil ---@type string
-    self.description = nil ---@type string
+
+function Choice:initialize(destination, description)
+    self.destination = destination ---@type string
+    self.description = description ---@type string
     self.condition = nil
 end
 

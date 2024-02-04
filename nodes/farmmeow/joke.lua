@@ -1,10 +1,10 @@
-local ID = "farmmeow.start"
-local title = "WOW UM GATO FAZENDEIRO GIGANTE!!!!"
-local description = "'Miau sô' ~Som de gato caipira"
+local ID = "farmmeow.joke"
+local title = "Será que ele pode mesmo falar???.."
+local description = "'Miau sô...' ~Repete o som de gato caipira"
 local header = [[
                                   _      _
            (c\-.--/a)
-            |q: p   /\_            _____
+            |_: _   /\_            _____
           __\(_/  ).'  '---._.---'`     '---.__
          /  (Y_)_/             /        : \-._ \
  !!!!,,, \_))'-';             (       _/   \  '\\_
@@ -25,12 +25,12 @@ local choices = {}
 
 table.insert(choices, Choice:new(
     "start",
-    "Miau sô pra tu também, tchau mal educado."
+    "Compreensível, tenha um bom dia."
 ))
 
 table.insert(choices, Choice:new(
     "farmmeow.joke",
-    "COMO ASSIM???? Você pode falar??"
+    "EU SEI QUE VOCÊ PODE FALAR! MOSTRE A SUA VERDADEIRA FACE!!!"
 ))
 
 local node = Node:new(ID,title,description,header,choices) ---@type Node
