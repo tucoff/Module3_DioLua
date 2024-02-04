@@ -40,7 +40,7 @@ end
 
 function Engine:printNode(node)
     if node.header then 
-        print("%{black}" .. node.header)
+        print("%{green}" .. node.header)
     end
     print("%{red}======" .. node.title)
     print("%{yellow}" .. node.description)
